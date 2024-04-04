@@ -1,0 +1,11 @@
+./.vscode/spellright.dict
+rapport.pdf
+query-errors.log
+datasource.py
+.crossnote
+*.sparqlbook
+__pycache__
+output.json
+.venv
+plots
+*.pdf
