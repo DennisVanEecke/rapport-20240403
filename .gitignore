@@ -7,5 +7,4 @@ datasource.py
 __pycache__
 output.json
 .venv
-plots
 *.pdf
