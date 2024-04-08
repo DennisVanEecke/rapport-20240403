@@ -11,12 +11,17 @@ For questions and requests
 
 </div>
 
-Date generated: April 05, 2024 13:04
+Date generated: april 08, 2024 12:04
 Version: 1.1
 Dataset: Lokaal beslist production data dump from March 2024
 
 ## Description
-This report contains plots for each of the different types of governing bodies. The X-axis consists of months, the Y-axis is an amount of resolutions.This report catches only the resolutions which are annotated with the `eli:date_published` predicate; which is about 68% of all resolutions.Because only resolutions which are linked to a governing body can be processed the ones that are not linked correctly are ignored in this analysis.The plots distinguish 'mature' and 'not mature' resolution records. Mature means the resolutions that are linked to a description, a value and a title.
+This report contains plots for each of the different types of governing bodies. The X-axis consists of months, the Y-axis is an amount of resolutions.This report catches only the resolutions which can be dated by regaring the date of the session and are correctly linked in an OSLO compatible way. This is about 70.03% of all resolutions in the dataset.The incorrectly linked resolutions are not considered in this analysis but their source might be the subject of future anlyses.The plots distinguish 'mature' and 'not mature' resolution records. Mature means the resolutions that are linked to a description, a value and a title and that the objects associated with these predicates are strings.Immature resulutions are all resolutions which do not adhere to this standard.
+
+
+| Totaal # besluiten | Totaal # gedateerde besluiten |
+| :---: | :---: |
+| 2.434.838 | 1.705.142 (70.03%) |
 
 ## Results
 
